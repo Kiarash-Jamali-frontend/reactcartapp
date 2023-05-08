@@ -13,7 +13,7 @@ const Slider = () => {
         const res = fetchSlides.then(res => {
             return res.json();
         }).then(res => setSlides(res))
-    }, [])
+    }, []) 
 
     return (
         <>

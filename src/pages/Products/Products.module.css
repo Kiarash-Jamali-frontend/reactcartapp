@@ -1,0 +1,85 @@
+/*Title*/
+
+/*Title*/
+.title {
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title > span {
+    color: #f8374f;
+    display: inline-block;
+    padding: 0 .5rem;
+    font-weight: bold;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.title > div {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #f8374f;
+    top: 50%;
+}
+
+
+/*Category button*/
+.categoryButton {
+    margin-left: .35rem;
+    margin-top: .5rem;
+    border: 1px solid #f8374f;
+    font-size: .8em;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.categoryButton.active {
+    background-color: #f8374f;
+    color: #fff;
+}
+
+/*Sort*/
+.sort {
+    font-size: .9em;
+}
+
+.sort ul {
+    padding: 0 .85rem 0 0;
+    list-style: none;
+}
+
+.sort a {
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    padding-bottom: .35rem;
+}
+
+.sort a::before {
+    content: "";
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.sort a.active {
+    color: #f8374f;
+}
+
+.sort a.active::before {
+    background-color: #f8374f;
+}
+
+/*Label*/
+.label {
+    font-size: .9em;
+    color: #555;
+}

@@ -1,0 +1,5 @@
+/*Product image*/
+.productImage {
+    object-position: center;
+    object-fit: cover;
+}

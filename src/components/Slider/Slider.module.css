@@ -1,0 +1,6 @@
+.slider img {
+    object-fit: cover;
+    max-height: 450px;
+    display: block;
+    width: 100%;
+}

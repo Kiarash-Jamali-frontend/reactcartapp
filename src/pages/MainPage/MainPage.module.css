@@ -1,0 +1,79 @@
+/*PC types*/
+.computerTypes {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    transition: 400ms all ease;
+}
+
+.computerTypes:hover {
+    opacity: .75;
+    color: #000;
+}
+
+/*Trend product categorys / Brands*/
+.trendProductCategorys {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.trendProductCategorys,
+.brands {
+    border: 1px solid #d3d3d3;
+    border-radius: 12px;
+}
+
+.brands {
+    padding: .5rem;
+    margin-top: 3rem;
+}
+
+.trendProductCategorys img,
+.brands img {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.trendProductCategorys a {
+    transition: 400ms all ease;
+}
+
+.trendProductCategorys a:hover {
+    opacity: .75;
+    transform: scale(1.05);
+}
+
+/*Title*/
+.title {
+    text-align: center;
+    max-width: 1300px;
+    width: 100%;
+    position: relative;
+    margin-top: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title > span {
+    color: #f8374f;
+    display: inline-block;
+    padding: 0 1rem;
+    font-weight: bold;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.title > div {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #f8374f;
+    top: 50%;
+}
+
+/*computerPartsSlider*/
+.computerPartsSlider {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1400px;
+}

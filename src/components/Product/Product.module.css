@@ -1,0 +1,19 @@
+/*Product image*/
+.productImage {
+    max-height: 180px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    padding: 1rem 0;
+    margin: auto;
+}
+
+/*Add to cart*/
+.addToCartBtn {
+    font-size: .8em !important;
+}
+
+/*Price*/
+.price {
+    font-size: .9em;
+}

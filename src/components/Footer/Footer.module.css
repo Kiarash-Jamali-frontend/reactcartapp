@@ -1,0 +1,18 @@
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/*Support team phone number*/
+.supportTeamPhoneNumber {
+    color: #656565;
+    font-size: .75em;
+    margin-top: 1.85rem;
+}
+
+.container p {
+    color: #656565;
+    font-size: .8em;
+}

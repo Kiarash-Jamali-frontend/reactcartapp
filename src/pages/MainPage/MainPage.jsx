@@ -16,7 +16,7 @@ const MainPage = () => {
 
             {/*PC categorys*/}
             <div className="container mt-3" style={{ maxWidth: "1450px" }}>
-                <div className="row row-cols-4 justify-content-between align-items-center">
+                <div className="row row-cols-4 justify-content-center align-items-center">
                     <Link to={"#"} className={styles.computerTypes}>
                         <img className="d-block mx-auto" src="./RYZEN-1-300x300.jpg" alt="AMD PC Image" />
                         <h4 className="text-center mt-2">سیستم های RYZEN/AMD</h4>
@@ -34,6 +34,9 @@ const MainPage = () => {
                         <h4 className="text-center mt-2">سیستم های اداری</h4>
                     </Link>
                 </div>
+                <Link to={"/products"} className={styles.seeProducts}>
+                    مشاهده محصولات
+                </Link>
             </div>
 
             {/*Trend product categorys*/}

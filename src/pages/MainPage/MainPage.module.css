@@ -16,6 +16,7 @@
     margin-top: 5rem;
     padding: 1rem;
 }
+
 .trendProductCategorys,
 .brands {
     border: 1px solid #d3d3d3;
@@ -53,7 +54,7 @@
     margin-left: auto;
 }
 
-.title > span {
+.title>span {
     color: #f8374f;
     display: inline-block;
     padding: 0 1rem;
@@ -63,7 +64,7 @@
     position: relative;
 }
 
-.title > div {
+.title>div {
     position: absolute;
     width: 100%;
     height: 2px;
@@ -76,4 +77,23 @@
     margin-top: 2rem;
     width: 100%;
     max-width: 1400px;
+}
+
+/*See products*/
+.seeProducts {
+    padding: 1rem 2rem;
+    background-color: #f8374f;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 3.5rem auto;
+    transition: 300ms all ease;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.seeProducts:hover {
+    color: #fff;
+    background-color: #b62536;
 }
